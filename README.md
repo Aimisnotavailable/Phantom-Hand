@@ -144,8 +144,6 @@ phantom_hand/
 ├── config.py            # Constants and landmark indices
 examples/
 ├── basic_demo.py        # Minimal usage example
-├── occlusion_demo.py    # Visual demonstration with ghost rendering
-└── gesture_demo.py      # Integration with custom gesture detection
 ```
 
 ## 🧪 Advanced Usage
