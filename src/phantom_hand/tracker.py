@@ -12,6 +12,7 @@ import mediapipe as mp
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
 from typing import Dict, List, Optional, Tuple, Union
+from mediapipe.tasks.python.components.containers import NormalizedLandmark
 
 from .config import *
 
@@ -116,7 +117,7 @@ class PhantomHandTracker:
     # Landmark conversion and storage
     # ------------------------------------------------------------------
     def _landmarks_to_list(
-        self, landmarks: List[mp.tasks.components.NormalizedLandmark]
+        self, landmarks: List[NormalizedLandmark]
     ) -> List[Tuple[float, float, float]]:
         """Convert MediaPipe landmarks to list of (x,y,z) tuples."""
         return [(lm.x, lm.y, lm.z) for lm in landmarks]
