@@ -8,9 +8,9 @@ version = "0.1.0"
 description = "MediaPipe hand tracking with kinematic ghost frames for occlusion handling"
 readme = "README.md"
 requires-python = ">=3.8"
-license = {text = "MIT"}
+license = { text = "MIT" }
 authors = [
-    {name = "Your Name", email = "your.email@example.com"}
+    { name = "Aimisnotavailable" }
 ]
 dependencies = [
     "opencv-python>=4.5",
@@ -26,3 +26,7 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://github.com/Aimisnotavailable/Phantom-Hand"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+packages = { find = { where = ["src"] } }
