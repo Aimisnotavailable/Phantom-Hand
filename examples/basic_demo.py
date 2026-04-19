@@ -1,9 +1,9 @@
 # examples/basic_demo.py
 import cv2
-from ghost_hand_tracker import GhostHandTracker
+from phantom_hand import PhantomHandTracker
 
 def main():
-    tracker = GhostHandTracker(screen_dim=(1280, 720), model_path="model_path", debug=True)
+    tracker = PhantomHandTracker(screen_dim=(1280, 720), model_path="model_path", debug=True)
     cap = cv2.VideoCapture(0)
 
     while True:
