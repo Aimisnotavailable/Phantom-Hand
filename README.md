@@ -1,7 +1,5 @@
 
 ---
-
-```markdown
 # 👻 PhantomHand
 
 [![PyPI version](https://badge.fury.io/py/phantom-hand-tracker.svg)](https://badge.fury.io/py/phantom-hand-tracker)
@@ -229,4 +227,3 @@ PhantomHand is built on top of Google's incredible [MediaPipe](https://developer
 ---
 
 **PhantomHand: Because hands shouldn't just vanish.**
-```
