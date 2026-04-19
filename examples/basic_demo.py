@@ -3,7 +3,7 @@ import cv2
 from ghost_hand_tracker import GhostHandTracker
 
 def main():
-    tracker = GhostHandTracker(screen_dim=(1280, 720), debug=True)
+    tracker = GhostHandTracker(screen_dim=(1280, 720), model_path="model_path", debug=True)
     cap = cv2.VideoCapture(0)
 
     while True:
