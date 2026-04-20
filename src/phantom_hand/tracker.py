@@ -4,6 +4,15 @@ PhantomHandTracker: MediaPipe hand tracking with kinematic prediction for occlus
 Uses MediaPipe Tasks API and provides ghost frames when hands are temporarily lost.
 """
 
+"""
+TO-DO:
+
+FIX HAND ANCHORING
+IMPLEMENT A MUCH ROBUST KALMAN FILTER
+CREATE ACOUNT ON PYPI
+
+HOURS WASTED : 5
+"""
 import math
 import logging
 import numpy as np
